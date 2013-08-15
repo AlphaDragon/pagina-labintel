@@ -6,22 +6,22 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
 	
     .masthead {
-      padding: 140px 0px 0px;
-      margin-bottom: 0px;      
+      padding-top: 90px;
     }
     
     .masthead h1{
       font-family: "Open Sans";
-      text-align: left;
+      text-align: center;
       line-height: 1;
       font-size: 60px;     
       letter-spacing: -1px;
-	  padding-bottom: 35px;
+	  padding-bottom: 20px;
     }
 	
-	.container h3{
-		letter-spacing: -1px;
+	.span8 h3{
+		letter-spacing: -0.5px;
 		text-align: center;
+		line-height: 1.5;
 	}	   
 	
 	.featurette-heading {
@@ -33,8 +33,7 @@
 	}
 	
 	.tab-content .lead {
-	      font-size: 20px;
-		  /*letter-spacing: -1px;*/
+	  font-size: 20px;
 	}
 	
 	#labor{
@@ -42,6 +41,14 @@
 	}
     
 	/* RESPONSIVE CSS */
+	
+	@media(max-width: 1280px){
+	  .span8 h3{
+		letter-spacing: -0.5px;
+		text-align: center;
+		line-height: 1.5;
+	  }		  
+	}
     
 	@media (max-width: 979px) {	   
 
@@ -99,7 +106,12 @@
 		}
 		
 		#labor{
-				padding-top: 10px;
-		}	
+			padding-top: 10px;
+		}
+		
+		.nav-tabs{
+		  margin-left: auto;
+		  margin-right: auto;
+		}
     }
   

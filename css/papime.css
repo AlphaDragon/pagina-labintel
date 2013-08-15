@@ -1,4 +1,4 @@
-/*Tesis stylesheet*/
+/*Proyecto PAPIME stylesheet*/
 
 @import url('bootstrap.min.css');
 @import url('bootstrap-responsive.min.css');
@@ -10,18 +10,17 @@
   
 	.page-header h1{
 		font-size: 58px;    
-	}
-  
+	}	
+	  
 	@media (max-width: 979px){		
-    .page-header{
-      margin-top: 70px;
-    }
-    
-    .page-header h1{
-      font-size: 40px;
-    }    
-   
-  }
+		.page-header{
+		  margin-top: 70px;
+		}
+		
+		.page-header h1{
+		  font-size: 40px;
+		}	
+	} 
     
   @media (max-width: 767px){    
     .page-header{
@@ -37,11 +36,28 @@
       font-size: 19px;
     }
 	
-	h4{
-		text-align: center;
+	h2{
+		font-size: 25px;
+		font-weight: normal;
 	}
 	
-	.row .span4 p{
-		text-align: center;
+	.dl-horizontal{
+		font-size: 17px;
+	}
+	
+	.dl-horizontal dt{
+		text-align: center;		
+		font-weight: normal;
+	}
+	
+	.dl-horizontal dd{
+		text-align: center;		
+		margin-top: 5px;
+		margin-bottom: 15px;
+		font-weight: bold;
+	}
+	
+	.collapse p{
+		font-size: 15px;
 	}
   }

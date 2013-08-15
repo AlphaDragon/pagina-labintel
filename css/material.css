@@ -1,4 +1,4 @@
-/*Reglamento stylesheet*/
+/*Material stylesheet*/
 
 @import url('bootstrap.min.css');
 @import url('bootstrap-responsive.min.css');
@@ -35,5 +35,9 @@
     
     h1 small{
       font-size: 19px;
-    }    
+    }
+	
+	.well{
+		margin-bottom: 30px;
+	}
   }

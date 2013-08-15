@@ -1,0 +1,36 @@
+/*Reglamento stylesheet*/
+
+@import url('bootstrap.min.css');
+@import url('bootstrap-responsive.min.css');
+@import url('navbar.css'); 
+	
+	.jumbotron {
+		margin-top: 90px;
+        text-align: center;
+	}
+	
+	h1 {
+		font-size: 58px;
+		line-height: 1;
+	}
+	
+	@media(max-width: 979px){
+		
+		.jumbotron{
+			margin-top: 60px;
+		}
+		
+		h1{
+			font-size: 40px;
+		}
+	}
+	
+	@media(max-width: 767px){
+		.jumbotron{
+			margin-top: 60px;	
+		}
+		
+		h1{
+			font-size: 23px;
+		}
+	}

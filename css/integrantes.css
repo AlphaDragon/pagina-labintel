@@ -1,0 +1,75 @@
+/*Integrantes stylesheet*/
+
+@import url('bootstrap.min.css');
+@import url('bootstrap-responsive.min.css');
+@import url('navbar.css');  
+
+  .page-header{
+    margin-top: 100px;    
+  }
+  
+  .page-header h1{
+    font-size: 58px;    
+  }
+
+  .nav-list{
+    top: 10px;
+    width: 217px;
+  }  
+  
+  @media (max-width: 1199px){
+    .nav-list{
+      width: 190px;
+    }        
+  }
+  
+  @media (max-width: 979px){
+    .nav-list{
+      width: 120px;
+    }
+    
+    .page-header{
+      margin-top: 70px;
+    }
+    
+    .page-header h1{
+      font-size: 40px;
+    }
+    
+    .span9 h1{
+      font-size: 33px;
+    }
+  }
+    
+  @media (max-width: 767px){
+    
+    .page-header{
+      margin-top: 60px;
+    }
+    
+    .page-header h1{
+      font-size: 35px;
+      text-align: center;        
+    }
+    
+    h1 small{
+      font-size: 19px;
+    }
+  
+    .nav-list{
+      width: 217px;
+      position: static;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 30px;
+    }
+    
+    .container .span9 h1{
+      font-size: 25px;
+      letter-spacing: -1px;
+    }
+    
+    section h3{
+      letter-spacing: -1px;
+    }
+  }

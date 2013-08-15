@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Komodo Project File - DO NOT EDIT -->
+<project id="dc10d89e-e314-4eb8-b97f-38dd5fd4027f" kpf_version="5" name="Pagina.komodoproject">
+<preference-set idref="dc10d89e-e314-4eb8-b97f-38dd5fd4027f" id="project" preftype="project">
+  <boolean id="editShowMinimap">1</boolean>
+  <boolean id="genericLinter:CSS">1</boolean>
+  <string relative="path" id="import_dirname"></string>
+</preference-set>
+</project>

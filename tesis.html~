@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Tesis ·  Laboratorio Intel para la Academia · Facultad de Ingeniería · UNAM</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página que contiene las tesis realizadas en el Laboratorio de Intel para la Academia">
+    <meta name="author" content="Andrés Mondragón">
+
+    <!-- Styles -->
+    <link href="./css/tesis.css" rel="stylesheet">      
+            
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://twitter.github.io/bootstrap/assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://twitter.github.io/bootstrap/assets/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://twitter.github.io/bootstrap/assets/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="http://twitter.github.io/bootstrap/assets/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="http://twitter.github.io/bootstrap/assets/ico/favicon.png">
+   <body>
+
+   <!-- NAVBAR -->
+    <div class="navbar-wrapper">
+        <div class="navbar navbar-inverse">
+          <div class="navbar-inner navbar-static-top">
+            <!-- Responsive Navbar-->
+			<div class="container">
+				<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+				</button>
+				<a class="brand visible-tablet" href="#">Laboratorio Intel y Cómputo de Alto Desempeño</a>
+				<!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
+				<div class="nav-collapse collapse">
+				  <ul class="nav">
+					<li><a href="index.html"><i class="icon-home icon-white"></i> Página de incio</a></li>
+					<li class="divider-vertical"></li>
+					<li><a href="integrantes.html"><i class="icon-user icon-white"></i> Integrantes</a></li>
+					<li class="divider-vertical"></li>
+					<li><a href="infraestructura.html"><i class="icon-wrench icon-white"></i> Infraestructura</a></li>
+					<li class="divider-vertical"></li>
+					<li class="active"><a href="reglamento.html"><i class="icon-ban-circle icon-white"></i> Reglamento</a></li>
+					<li class="divider-vertical"></li>
+					<li class="active"><a href="tesis.html"><i class="icon-book icon-white"></i> Tesis</a></li>
+					<li class="divider-vertical"></li>
+					<li class="dropdown">
+					  <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-briefcase icon-white"></i> Proyectos<b class="caret"></b></a>
+					  <ul class="dropdown-menu">
+						<li><a style="font-size: 13px" href="papime.html">Proyecto PAPIME</a></li>                    
+						<li class="divider"></li>                    
+						<li><a style="font-size: 13px" href="otros_proyectos.html">Otros proyectos</a></li>                    
+					  </ul>
+					</li>
+					<li class="divider-vertical"></li>
+					<li><a href="material.html"><i class="icon-folder-open icon-white"></i> Material</a></li>
+				  </ul>
+				</div>
+			</div>
+            </div><!--/.nav-collapse -->
+        </div><!-- /.navbar-inner -->
+    </div><!-- /.navbar -->   
+
+    <div class="container">
+      <div class="row"><!--row1-->
+        <div class="span12">
+          <div class="page-header">
+            <h1>Tesis</h1>
+            <h4>En esta página se encuentran las tesis realizadas en colaboración con el laboratorio.</h4>            
+          </div><!--hero-unit-->
+        </div><!--/span12-->
+ 			</div><!--row1-->
+        <div class="row"><!--row1-->
+          <div class="span4">
+            <h4>Desarrollo de un sistema de procesamiento distribuido usando bibliotecas para la programación paralela en el modelo de intercambio de mensajes</h4>
+            <dl>
+            	<dt>Autor</dt>
+            	<dd>Poblete Muñoz, Tania Xitlali</dd>
+            	<dt>Directora de tesis</dt>
+            	<dd>Ing. Laura Sandoval Montaño</dd>
+            	<dt>Imprenta</dt>
+            	<dd>México: El autor, 2001 Pag. 156, XXVI p.: il.</dd>
+            	<dt>Número</dt>
+            	<dd>001-01132-P6-2001-4</dd>
+            </dl>
+            <p><a class="btn" href="http://pbidi.unam.mx:8080/login?url=http://132.248.9.195:8080/tesdig2/Procesados_2001/297949/Index.html" target="_blank">Tesis digital</a></p>
+          </div><!--/span4-->
+          <div class="span4">
+            <h4>Construcción y evaluación de desempeño de un cluster tipo Beowulf para cómputo de alto rendimiento </h4>
+            <dl>
+            	<dt>Autor</dt>
+            	<dd> Manrique Martínez, Daniel</dd>
+            	<dt>Directora de tesis</dt>
+            	<dd>Ing. Laura Sandoval Montaño</dd>
+            	<dt>Imprenta</dt>
+            	<dd>México: El autor, 2001 Pag. 193, XII p.</dd>
+            	<dt>Número</dt>
+            	<dd>001-01132-M7-2001-4 </dd>
+            </dl>
+            <p><a class="btn" href="http://pbidi.unam.mx:8080/login?url=http://132.248.9.195:8080/tesdig2/Procesados_2001/298683/Index.html" target="_blank">Tesis digital</a></p>
+          </div><!--/span4-->
+          <div class="span4">
+            <h4>Análisis del desempeño de un cluster Beowulf en diversos algoritmos de tipo concurrente</h4>
+            <dl>
+            	<dt>Autores</dt>
+            	<dd>Sáenz García, Elba Karen; Valdez Casillas, Oscar René; Juárez Sosa, Julio César</dd>
+            	<dt>Directora de tesis</dt>
+            	<dd>Ing. Laura Sandoval Montaño</dd>
+            	<dt>Imprenta</dt>
+            	<dd>México: Los autores, 2001 Pag. 273, [16] p.</dd>
+            	<dt>Número</dt>
+            	<dd>001-01132-J2-2001-3</dd>
+            </dl>
+            <p><a class="btn" href="http://pbidi.unam.mx:8080/login?url=http://132.248.9.195:8080/tesdig2/Procesados_2001/298871/Index.html" target="_blank">Tesis digital</a></p>
+          </div><!--/span4-->         
+        </div><!--/row1-->
+        
+        <div class="row"><!--row2-->
+          <div class="span4">
+          	<h4>La alta disponibilidad en el sistema operativo Windows NT utilizando la tecnología Cluster</h4>
+            <dl>
+            	<dt>Autor</dt>
+            	<dd>Díaz Arceo, Arturo</dd>
+            	<dt>Directora de tesis</dt>
+            	<dd>Ing. Laura Sandoval Montaño</dd>
+            	<dt>Imprenta</dt>
+            	<dd>México: El autor, 2002 Pag. VI, 220 p. : il.</dd>
+            	<dt>Número</dt>
+            	<dd>001-01132-D4-2002</dd>
+            </dl>            
+          </div><!--/span4-->
+          <div class="span4">
+            <h4>Aplicación de la tecnología cluster en plataforma UNIX como solución al problema de alta disponibilidad en sistemas de cómputo de misión crítica</h4>
+            <dl>
+            	<dt>Autor</dt>
+            	<dd>Cardenas Climaco, Ezequiel</dd>
+            	<dt>Director de tesis</dt>
+            	<dd>Raymundo Hugo Rangel Gutierrez</dd>
+            	<dt>Imprenta</dt>
+            	<dd>México: El autor, 2002 Pag. 272 p. en varias paginaciones</dd>
+            	<dt>Número</dt>
+            	<dd>001-01132-C13-2002</dd>
+            </dl>                       
+          </div><!--/span4-->
+          <div class="span4">
+            <h4>Implementando una red segura con software libre</h4>
+            <dl>
+            	<dt>Autor</dt>
+            	<dd>Martínez Mendoza, Fernando Javier</dd>
+            	<dt>Directora de tesis</dt>
+            	<dd>Ing. Laura Sandoval Montaño</dd>
+            	<dt>Imprenta</dt>
+            	<dd>México:  El autor, 2003, XIV, 103 p. : il.</dd>
+            	<dt>Número</dt>
+            	<dd>001-01132-M3-2003-6</dd>
+            </dl>            
+          </div><!--/span4-->         
+        </div><!--/row2-->
+        
+        <div class="row"><!--row3-->          
+          <div class="span4">
+            <h4>Administración del cluster tipo Beowulf de la Facultad de Ingeniería</h4>
+            <dl>
+            	<dt>Autores</dt>
+		    	<dd>Balderas Jiménez, Roy; Moreno Sánchez, Jeanette; Placido Mojica, Martín</dd>
+		    	<dt>Directora de tesis</dt>
+		    	<dd>Ing. Laura Sandoval Montaño</dd>
+		    	<dt>Imprenta</dt>
+		    	<dd>México: Los autores, 2003 Pag. 214, XVIII p. : il.</dd>
+		    	<dt>Número</dt>
+		    	<dd>001-01132-B6-2003</dd>
+            </dl>
+          </div><!--/span4-->
+          <div class="span4">
+            <h4>Elaboración de prácticas de programación distribuida en el cluster tipo Beowulf de la Facultad de Ingeniería</h4>
+		  <dl>		  			  	
+  			<dt>Autores</dt>
+		  	<dd>González Flores, Christian; González Flores, Lissette; Ramírez Ponce, Eryk Rogelio</dd>
+		  	<dt>Directora de tesis</dt>
+		  	<dd>Ing. Laura Sandoval Montaño</dd>
+		  	<dt>Imprenta</dt>
+		  	<dd>México: Los autores, 2004 Pag. xi, 224 p. : il.</dd>
+		  	<dt>Número</dt>
+		  	<dd>001-01132-G7-2004</dd>
+		  </dl>            
+            </div><!--/span4-->
+            <div class="span4"> 
+            <h4>Desarrollo de una aplicación de ingeniería de clusters de alto desempeño</h4>
+	          <dl>
+	          	<dt>Autores</dt>
+	          	<dd>Ávila Jiménez, Eduardo; Cantera Rubio, Fernando Nahu; Castañeda Caballero, Eric Ricardo</dd>
+	          	<dt>Directora de tesis</dt>
+	          	<dd>Ing. Laura Sandoval Montaño</dd>
+	          	<dt>Codirector</dt>
+	          	<dd>M.I. Aurelio Adolfo Millán Nájera</dd>
+	          	<dt>Imprenta</dt>
+	          	<dd>México: Los autores, 2005 Pag. xiv, 171 p. : il.</dd>
+	          	<dt>Número</dt>
+	          	<dd>001-01132-A3-2005</dd>
+	          	<p><a class="btn" href="http://132.248.9.195/ptb2005/01132/0343081/Index.html" target="_blank">Tesis digital</a></p>
+	          </dl> 
+            </div><!--/span4-->       
+        </div><!--/row3-->
+        
+        <div class="row"><!--row4-->
+          <div class="span4">
+            <h4>Cluster tipo Beowulf para aplicaciones de visualización científica y realidad virtual</h4>
+            <dl>
+            	<dt>Autor</dt>
+            	<dd>Sanabria Pineda, César</dd>
+            	<dt>Director de tesis</dt>
+            	<dd>M.I. Oscar René Valdez Casillas</dd>
+            	<dt>Imprenta</dt>
+            	<dd>México: El autor, 2005, 107, [147] p. : il.</dd>
+            	<dt>Número</dt>
+            	<dd>001-01132-S7-2005</dd>
+            	<p><a class="btn" href="http://pbidi.unam.mx:8080/login?url=http://132.248.9.195:8080/tesdig2/Procesados_2005/0602088/Index.html" target="_blank">Tesis digital</a></p>
+            </dl>            
+          </div><!--/span4-->
+          <div class="span4">
+            <h4>Desarrollo de un API para cómputo paralelo</h4>
+            <dl>
+            	<dt>Autor</dt>
+            	<dd>Rodríguez Herrera, José Daniel</dd>
+            	<dt>Directora de tesis</dt>
+            	<dd>Ing. Laura Sandoval Montaño</dd>
+            	<dt>Imprenta</dt>
+            	<dd>México: El autor, 2006, 118 p. : il.</dd>
+            	<dt>Número</dt>
+            	<dd>001-01132-R1-2006</dd>
+            </dl>
+            <p><a class="btn" href="http://pbidi.unam.mx:8080/login?url=http://132.248.9.195:8080/tesdig2/Procesados_TESTDF/0352979/Index.html" target="_blank">Tesis digital</a></p>
+          </div><!--/span4-->
+          <div class="span4">
+            <h4>Construcción de una GRID de clusters</h4>
+            <dl>
+            	<dt>Autor</dt>
+            	<dd>Rosas Castillo, Tania Cristina</dd>
+            	<dt>Directora de tesis</dt>
+            	<dd>Ing. Laura Sandoval Montaño</dd>
+            	<dt>Imprenta</dt>
+            	<dd>México: El autor, 2006, viii, 126 p. : il.</dd>
+            	<dt>Número</dt>
+            	<dd>001-01132-R4-2006</dd>
+            </dl>
+            <p><a class="btn" href="http://pbidi.unam.mx:8080/login?url=http://132.248.9.195:8080/tesdig2/Procesados_2006/0606363/Index.html" target="_blank">Tesis digital</a></p>
+            </div><!--/span4-->         
+        </div><!--/row4-->
+        
+        <div class="row"><!--row5-->
+          <div class="span4">
+          	<h4>Inducción al cómputo de alto desempeño</h4>
+            <dl>
+            	<dt>Autores</dt>
+            	<dd>Ramos Palacios, Guadalupe Susana; Rosales Madrigal, Servando</dd>            	
+            	<dt>Directora de tesis</dt>
+            	<dd>Ing. Laura Sandoval Montaño</dd>
+            	<dt>Imprenta</dt>
+            	<dd>México: Los autores, 2006, 196 p.</dd>
+            	<dt>Número</dt>
+            	<dd>001-01132-R5-2006</dd>
+            </dl>
+            <p><a class="btn" href="http://132.248.9.195/pd2006/0606266/Index.html" target="_blank">Tesis digital</a></p>          
+          </div><!--/span4-->
+          <div class="span4">
+          	<h4>Desarrollo de un sistema de base de datos distribuida en un cluster de alto desempeño</h4>
+            <dl>
+            	<dt>Autores</dt>
+            	<dd>León Cruz, Claudia Jazmín de; Navarro Carranza, José de Jesús</dd>            	
+            	<dt>Directora de tesis</dt>
+            	<dd>Ing. Laura Sandoval Montaño</dd>
+            	<dt>Imprenta</dt>
+            	<dd>México: Los autores, 2006, 167 p. : il.</dd>
+            	<dt>Número</dt>
+            	<dd>001-01132-L2-2006</dd>
+            </dl>
+            <p><a class="btn" href="http://132.248.9.195/pd2006/0606805/Index.html" target="_blank">Tesis digital</a></p>            
+          </div><!--/span4-->
+          <div class="span4">
+          	<h4>Diseño de un sistema de educación virtual en tiempo real para la Facultad de Ingeniería</h4>
+            <dl>
+            	<dt>Autor</dt>
+            	<dd>Castañeda Castañeda, Manuel Enrique</dd>
+            	<dt>Directora de tesis</dt>
+            	<dd>Ing. Laura Sandoval Montaño</dd>
+            	<dt>Imprenta</dt>
+            	<dd>México: El autor, 2010, 118 p. : il.</dd>
+            	<dt>Número</dt>
+            	<dd>001-01132-C2-2010</dd>
+            </dl>
+            <p><a class="btn" href="http://pbidi.unam.mx:8080/login?url=http://132.248.9.195:8080/tesdig2/Procesados_tesis_2010/enero/0653145/Index.html" target="_blank">Tesis digital</a></p>            
+            </div><!--/span4-->         
+        </div><!--/row5-->
+        
+        <div class="row"><!--row6-->
+          <div class="span4">
+          	<h4>Estudio de desempeño de algoritmos en entornos multicore</h4>
+            <dl>
+            	<dt>Autor</dt>
+            	<dd>Estrada Murguía, Pablo José</dd>
+            	<dt>Directora de tesis</dt>
+            	<dd>Ing. Laura Sandoval Montaño</dd>
+            	<dt>Imprenta</dt>
+            	<dd>México: 2011, 89 p. : il.</dd>
+            	<dt>Número</dt>
+            	<dd>001-01132-E1-2011</dd>
+            </dl>
+            <p><a class="btn" href="http://132.248.9.195/ptb2011/marzo/0667913/Index.html" target="_blank">Tesis digital</a></p>          
+          </div><!--/span4-->          
+          <div class="span4">
+            <h4>Guía de referencia para el desarrollo y distribución de software en plataformas móviles</h4>
+            <dl>
+            	<dt>Autor</dt>
+            	<dd>Zárate Rea, Héctor</dd>
+            	<dt>Directora de tesis</dt>
+            	<dd>Ing. Laura Sandoval Montaño</dd>
+            	<dt>Imprenta</dt>
+            	<dd>México: 2010, 85 páginas : ilustraciones</dd>
+            	<dt>Número</dt>
+            	<dd>001-01132-Z1-2012</dd>
+            </dl>
+            <p><a class="btn" href="http://132.248.9.195/ptd2012/abril/0679052/Index.html" target="_blank">Tesis digital</a></p>
+            </div><!--/span4-->         
+        </div><!--/row6-->                        
+      <hr>
+
+      <footer>
+        <p class="pull-right"><a href="#">Regresar</a></p>
+        <p>© 2013 Universidad Nacional Autónoma de México, Facultad de Ingeniería</p>
+      </footer>
+
+    </div><!--/container-->
+
+    <!-- Javascript -->
+    <script src="./js/jquery-1.10.1.min.js"></script>  
+    <script src="./js/bootstrap.min.js"></script>    
+
+</body></html>

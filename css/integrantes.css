@@ -2,25 +2,25 @@
 
 @import url('bootstrap.min.css');
 @import url('bootstrap-responsive.min.css');
-@import url('navbar.css');  
+@import url('navbar.css');
 
 .page-header{
-	margin-top: 100px;    
+	margin-top: 100px;
 }
 
 .page-header h1{
-	font-size: 58px;    
+	font-size: 58px;
 }
 
 .nav-list{
 	top: 10px;
 	width: 217px;
-}  
+}
 
 @media (max-width: 1199px){
 	.nav-list{
 		width: 190px;
-	}        
+	}
 }
 
 @media (max-width: 979px){
@@ -49,7 +49,7 @@
 
 	.page-header h1{
 		font-size: 35px;
-		text-align: center;        
+		text-align: center;
 	}
 
 	h1 small{

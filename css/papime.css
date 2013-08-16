@@ -2,27 +2,27 @@
 
 @import url('bootstrap.min.css');
 @import url('bootstrap-responsive.min.css');
-@import url('navbar.css'); 
+@import url('navbar.css');
 
 .page-header{
-	margin-top: 100px;    
+	margin-top: 100px;
 }
 
 .page-header h1{
-	font-size: 58px;    
-}	
+	font-size: 58px;
+}
 
-@media (max-width: 979px){		
+@media (max-width: 979px){
 	.page-header{
 		margin-top: 70px;
 	}
 
 	.page-header h1{
 		font-size: 40px;
-	}	
-} 
+	}
+}
 
-@media (max-width: 767px){    
+@media (max-width: 767px){
 	.page-header{
 		margin-top: 60px;
 	}
@@ -46,12 +46,12 @@
 	}
 
 	.dl-horizontal dt{
-		text-align: center;		
+		text-align: center;
 		font-weight: normal;
 	}
 
 	.dl-horizontal dd{
-		text-align: center;		
+		text-align: center;
 		margin-top: 5px;
 		margin-bottom: 15px;
 		font-weight: bold;

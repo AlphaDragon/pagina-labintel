@@ -13,7 +13,7 @@
 	font-family: "Open Sans";
 	text-align: center;
 	line-height: 1;
-	font-size: 60px;     
+	font-size: 60px;
 	letter-spacing: -1px;
 	padding-bottom: 20px;
 }
@@ -22,14 +22,14 @@
 	letter-spacing: -0.5px;
 	text-align: center;
 	line-height: 1.5;
-}	   
+}
 
 .featurette-heading {
 	font-size: 45px;
 	font-weight: 300;
 	line-height: 1;
 	letter-spacing: -1px;
-	padding: 20px 0px;      
+	padding: 20px 0px;
 }
 
 .tab-content .lead {
@@ -47,13 +47,13 @@
 		letter-spacing: -0.5px;
 		text-align: center;
 		line-height: 1.5;
-	}		  
+	}
 }
 
-@media (max-width: 979px) {	   
+@media (max-width: 979px) {
 
 	.masthead{
-		padding-top: 60px;				
+		padding-top: 60px;
 	}
 
 	.masthead h1{
@@ -68,7 +68,7 @@
 	}
 
 	.featurette-heading {
-		font-size: 31px;		  
+		font-size: 31px;
 	}
 
 	.featurette {
@@ -77,10 +77,10 @@
 	}
 }
 
-@media (max-width: 767px) {	 						
+@media (max-width: 767px) {
 
 	.masthead{
-		top: 60px;				
+		top: 60px;
 	}
 
 	.masthead h1{

@@ -4,114 +4,113 @@
 @import url('bootstrap-responsive.min.css');
 @import url('navbar.css');
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
-	
-    .masthead {
-      padding-top: 90px;
-    }
-    
-    .masthead h1{
-      font-family: "Open Sans";
-      text-align: center;
-      line-height: 1;
-      font-size: 60px;     
-      letter-spacing: -1px;
-	  padding-bottom: 20px;
-    }
-	
+
+.masthead {
+	padding-top: 90px;
+}
+
+.masthead h1{
+	font-family: "Open Sans";
+	text-align: center;
+	line-height: 1;
+	font-size: 60px;     
+	letter-spacing: -1px;
+	padding-bottom: 20px;
+}
+
+.span8 h3{
+	letter-spacing: -0.5px;
+	text-align: center;
+	line-height: 1.5;
+}	   
+
+.featurette-heading {
+	font-size: 45px;
+	font-weight: 300;
+	line-height: 1;
+	letter-spacing: -1px;
+	padding: 20px 0px;      
+}
+
+.tab-content .lead {
+	font-size: 20px;
+}
+
+#labor{
+	padding-top: 0px;
+}
+
+/* RESPONSIVE CSS */
+
+@media(max-width: 1280px){
 	.span8 h3{
 		letter-spacing: -0.5px;
 		text-align: center;
 		line-height: 1.5;
-	}	   
-	
+	}		  
+}
+
+@media (max-width: 979px) {	   
+
+	.masthead{
+		padding-top: 60px;				
+	}
+
+	.masthead h1{
+		font-size: 40px;
+		padding-bottom: 10px;
+	}
+
+	.masthead h3{
+		font-size: 21px;
+		line-height: 1.5;
+		font-weight: normal;
+	}
+
 	.featurette-heading {
-	  font-size: 45px;
-	  font-weight: 300;
-	  line-height: 1;
-	  letter-spacing: -1px;
-	  padding: 20px 0px;      
+		font-size: 31px;		  
 	}
-	
-	.tab-content .lead {
-	  font-size: 20px;
+
+	.featurette {
+		height: auto;
+		padding: 0;
 	}
-	
-	#labor{
+}
+
+@media (max-width: 767px) {	 						
+
+	.masthead{
+		top: 60px;				
+	}
+
+	.masthead h1{
+		font-size: 30px;
+		padding-bottom: 10px;
+		text-align: center;
+	}
+
+	.masthead h3{
+		font-size: 18px;
+		line-height: 1.5;
+		font-weight: normal;
+	}
+
+	.featurette-heading {
+		font-size: 30px;
 		padding-top: 0px;
 	}
-    
-	/* RESPONSIVE CSS */
-	
-	@media(max-width: 1280px){
-	  .span8 h3{
-		letter-spacing: -0.5px;
-		text-align: center;
-		line-height: 1.5;
-	  }		  
-	}
-    
-	@media (max-width: 979px) {	   
 
-		.masthead{
-				padding-top: 60px;				
-		}
-		
-		.masthead h1{
-		    font-size: 40px;
-			padding-bottom: 10px;
-		}
-		
-		.masthead h3{
-				font-size: 21px;
-				line-height: 1.5;
-				font-weight: normal;
-		}
-		
-		.featurette-heading {
-		  font-size: 31px;		  
-		}
-		
-		.featurette {
-	      height: auto;
-	      padding: 0;
-	    }
+	.featurette .lead {
+		font-size: 18px;
+		line-height: 1.5;
 	}
-    
-	@media (max-width: 767px) {	 						
-		
-		.masthead{
-		  top: 60px;				
-		}
-		
-		.masthead h1{
-		    font-size: 30px;
-			padding-bottom: 10px;
-			text-align: center;
-		}
-		
-		.masthead h3{
-				font-size: 18px;
-				line-height: 1.5;
-				font-weight: normal;
-		}
-		
-		.featurette-heading {
-		  font-size: 30px;
-		  padding-top: 0px;
-		}
-		
-		.featurette .lead {
-		  font-size: 18px;
-		  line-height: 1.5;
-		}
-		
-		#labor{
-			padding-top: 10px;
-		}
-		
-		.nav-tabs{
-		  margin-left: auto;
-		  margin-right: auto;
-		}
-    }
-  
+
+	#labor{
+		padding-top: 10px;
+	}
+
+	.nav-tabs{
+		margin-left: auto;
+		margin-right: auto;
+	}
+}

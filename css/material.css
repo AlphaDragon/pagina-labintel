@@ -3,41 +3,41 @@
 @import url('bootstrap.min.css');
 @import url('bootstrap-responsive.min.css');
 @import url('navbar.css'); 
-	
+
+.page-header{
+	margin-top: 100px;    
+}
+
+.page-header h1{
+	font-size: 58px;    
+}
+
+@media (max-width: 979px){		
 	.page-header{
-		margin-top: 100px;    
+		margin-top: 70px;
 	}
-  
+
 	.page-header h1{
-		font-size: 58px;    
+		font-size: 40px;
+	}    
+
+}
+
+@media (max-width: 767px){    
+	.page-header{
+		margin-top: 60px;
 	}
-  
-	@media (max-width: 979px){		
-    .page-header{
-      margin-top: 70px;
-    }
-    
-    .page-header h1{
-      font-size: 40px;
-    }    
-   
-  }
-    
-  @media (max-width: 767px){    
-    .page-header{
-      margin-top: 60px;
-    }
-    
-    .page-header h1{
-      font-size: 35px;
-      text-align: center;
-    }
-    
-    h1 small{
-      font-size: 19px;
-    }
-	
+
+	.page-header h1{
+		font-size: 35px;
+		text-align: center;
+	}
+
+	h1 small{
+		font-size: 19px;
+	}
+
 	.well{
 		margin-bottom: 30px;
 	}
-  }
+}

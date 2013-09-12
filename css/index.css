@@ -3,14 +3,13 @@
 @import url('bootstrap.min.css');
 @import url('bootstrap-responsive.min.css');
 @import url('navbar.css');
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
 
 .masthead {
 	padding-top: 90px;
 }
 
 .masthead h1{
-	font-family: "Open Sans";
+	font-weight: bold;
 	text-align: center;
 	line-height: 1;
 	font-size: 60px;

@@ -12,6 +12,10 @@
 	font-size: 58px;
 }
 
+#WS{
+	width: 50%;	
+}
+
 @media (max-width: 979px){
 	.page-header{
 		margin-top: 70px;
@@ -20,7 +24,6 @@
 	.page-header h1{
 		font-size: 40px;
 	}
-
 }
 
 @media (max-width: 767px){
@@ -37,3 +40,4 @@
 		font-size: 19px;
 	}
 }
+

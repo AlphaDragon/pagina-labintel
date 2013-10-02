@@ -4,8 +4,23 @@
 @import url('bootstrap-responsive.min.css');
 @import url('navbar.css');
 
+.carousel-indicators{  
+  padding-top: 80px;
+}
+
+.carousel-inner h1{
+  color: white;
+}
+
+.carousel-control{
+  margin-top: 40px; 
+}
+
 .masthead {
 	padding-top: 90px;
+	background: url(../img/fondo2.jpg) center center no-repeat;
+	background-size: cover;
+	height: 380px;
 }
 
 .masthead h1{
@@ -17,7 +32,7 @@
 	padding-bottom: 20px;
 }
 
-.span8 h3{
+.row h3{
 	letter-spacing: -0.5px;
 	text-align: center;
 	line-height: 1.5;
@@ -33,6 +48,13 @@
 
 .tab-content .lead {
 	font-size: 20px;
+}
+
+#carousel{
+  padding-top: 90px;
+  background: url(../img/fondo2.jpg) center center no-repeat;
+	background-size: cover;
+	height: 380px;
 }
 
 #labor{

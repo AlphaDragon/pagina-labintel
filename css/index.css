@@ -1,9 +1,9 @@
 /*Index stylesheet*/
 
-@import url('bootstrap.min.css');
-@import url('bootstrap-responsive.min.css');
 @import url('navbar.css');
 @import url(http://fonts.googleapis.com/css?family=Oxygen:700);
+@import url(http://fonts.googleapis.com/css?family=Quicksand:700);
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web:900);
 
 .carousel-indicators{  
   padding-top: 50px;
@@ -13,19 +13,13 @@
   color: white;
   font-size: 55px;
   text-align: center;
-  font-family: "Oxygen", "Gudea";
+  font-family: "Oxygen", sans-serif;
   line-height: 55px;
   margin-top: -10px;
 }
 
 .carousel-control{
   margin-top: 50px; 
-}
-
-.row h3{
-	letter-spacing: -0.5px;
-	text-align: center;
-	line-height: 1.5;
 }
 
 .featurette-heading {
@@ -45,6 +39,12 @@
   background: url(../img/fondo.jpg) center center no-repeat;
   background-size: cover;
   height: 380px;
+}
+
+#descripcion{
+	letter-spacing: -0.5px;
+	text-align: center;
+	line-height: 1.5;
 }
 
 #labor{

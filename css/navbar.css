@@ -1,10 +1,12 @@
 /*Navbar stylesheet*/
 
+@import url('bootstrap.min.css');
+@import url('bootstrap-responsive.min.css');
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
 @import url(http://fonts.googleapis.com/css?family=Gudea:400,700&subset=latin-ext);
 
 *{
-  font-family:"Gudea"
+  font-family:"Gudea", sans-serif;
 }
 
 .navbar-wrapper {

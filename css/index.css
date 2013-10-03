@@ -3,35 +3,23 @@
 @import url('bootstrap.min.css');
 @import url('bootstrap-responsive.min.css');
 @import url('navbar.css');
+@import url(http://fonts.googleapis.com/css?family=Oxygen:700);
 
 .carousel-indicators{  
-  padding-top: 60px;
+  padding-top: 50px;
 }
 
 .carousel-inner h1{
   color: white;
-	font-size: 55px;
-	text-align: center;
+  font-size: 55px;
+  text-align: center;
+  font-family: "Oxygen", "Gudea";
+  line-height: 55px;
+  margin-top: -10px;
 }
 
 .carousel-control{
   margin-top: 50px; 
-}
-
-.masthead {
-	padding-top: 90px;
-	background: url(../img/fondo2.jpg) center center no-repeat;
-	background-size: cover;
-	height: 380px;
-}
-
-.masthead h1{
-	font-weight: bold;
-	text-align: center;
-	line-height: 1;
-	font-size: 60px;
-	letter-spacing: -1px;
-	padding-bottom: 20px;
 }
 
 .row h3{
@@ -54,10 +42,9 @@
 
 #carousel{
   padding-top: 90px;
-  background: url(../img/fondo2.jpg) center center no-repeat;
-	background-size: cover;
-	height: 380px;
-	z-index: -1;
+  background: url(../img/fondo.jpg) center center no-repeat;
+  background-size: cover;
+  height: 380px;
 }
 
 #labor{
@@ -72,6 +59,10 @@
 		text-align: center;
 		line-height: 1.5;
 	}
+	
+	.carousel-inner img{
+	  display: none;
+	}
 }
 
 @media (max-width: 979px) {
@@ -83,12 +74,17 @@
 	.masthead h1{
 		font-size: 40px;
 		padding-bottom: 10px;
+		text-align: center;
 	}
 
-	.masthead h3{
+	.container .row h3{
 		font-size: 21px;
 		line-height: 1.5;
 		font-weight: normal;
+	}
+	
+	.navbar-wrapper h4{
+	  margin-top: 30px;
 	}
 
 	.featurette-heading {
@@ -107,16 +103,17 @@
 		top: 60px;
 	}
 
-	.masthead h1{
+	.masthead .container-fluid .row-fluid h1{
 		font-size: 30px;
-		padding-bottom: 10px;
-		text-align: center;
+		line-height: 30px;
+		letter-spacing: -1px;;
 	}
 
-	.masthead h3{
+	.container .row h3{
 		font-size: 18px;
 		line-height: 1.5;
 		font-weight: normal;
+		margin-top: -10px;
 	}
 
 	.featurette-heading {

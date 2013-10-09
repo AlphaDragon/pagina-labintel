@@ -1,6 +1,9 @@
 /*Index stylesheet*/
 
 @import url('navbar.css');
+@import url(http://fonts.googleapis.com/css?family=Oxygen:700);
+@import url(http://fonts.googleapis.com/css?family=Quicksand:700);
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web:900);
 
 .carousel-indicators{  
   margin-top: 50px;

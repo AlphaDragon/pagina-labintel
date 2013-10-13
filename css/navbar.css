@@ -54,6 +54,11 @@ footer{
 	font-size: 15px;
 }
 
+/*Submenu fix*/
+.dropdown-backdrop {
+    position: static;
+}
+
 /* RESPONSIVE CSS */
 
 @media (max-width: 979px) {

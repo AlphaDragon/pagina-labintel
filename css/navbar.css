@@ -22,14 +22,6 @@
 	/*background-image: linear-gradient(to bottom, rgb(255, 0, 0), rgb(255, 70, 70));*/
 }
 
-.navbar .brand {
-	padding: 15px 10px 15px 0px;
-	font-size: 14px;
-	font-weight: bold;
-	text-shadow: 0 -1px 0 rgba(0,0,0,.5);
-	float: right;
-}
-
 .navbar .nav > li > a {
 	padding: 15px 15px 15px 0px;
 	font-size: 16px;

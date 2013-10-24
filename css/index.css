@@ -36,6 +36,11 @@
   height: 380px;
 }
 
+#logo{
+  height: 220px;
+  margin-top: 10px;
+}
+
 #descripcion{
 	letter-spacing: -0.5px;
 	text-align: center;
@@ -48,16 +53,30 @@
 
 /* RESPONSIVE CSS */
 
-@media(max-width: 1280px){
+@media(max-width: 1250px){
 	.span8 h3{
 		letter-spacing: -0.5px;
 		text-align: center;
 		line-height: 1.5;
 	}
 	
-	.carousel-inner img{
+	.carousel-inner .container-fluid .row-fluid img{
 	  display: none;
 	}
+}
+
+@media(max-width: 1148px){
+  
+  .carousel-inner h1{
+  color: white;
+  font-size: 50px;
+  text-align: center;  
+  line-height: 55px;
+}
+  
+  #logo{
+	height: 220px;
+  }
 }
 
 @media (max-width: 979px) {
@@ -77,10 +96,6 @@
 		line-height: 1.5;
 		font-weight: normal;
 	}
-	
-	/*.navbar-wrapper h4{
-	  margin-top: 30px;
-	}*/
 
 	.featurette-heading {
 		font-size: 31px;

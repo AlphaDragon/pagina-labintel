@@ -60,9 +60,10 @@
 		line-height: 1.5;
 	}
 	
-	.carousel-inner .container-fluid .row-fluid img{
-	  display: none;
+	.active .container-fluid .row-fluid img{
+		display: none;
 	}
+	
 }
 
 @media(max-width: 1148px){
@@ -72,11 +73,7 @@
   font-size: 50px;
   text-align: center;  
   line-height: 55px;
-}
-  
-  #logo{
-	height: 220px;
-  }
+  }	
 }
 
 @media (max-width: 979px) {
@@ -90,7 +87,7 @@
 		padding-bottom: 10px;
 		text-align: center;
 	}
-
+	
 	.container .row h3{
 		font-size: 21px;
 		line-height: 1.5;
@@ -105,6 +102,11 @@
 		height: auto;
 		padding: 0;
 	}
+	
+	#logo{
+		margin-top: -20px;
+		height: 220px;
+  }	
 }
 
 @media (max-width: 767px) {
@@ -144,4 +146,9 @@
 		margin-left: auto;
 		margin-right: auto;
 	}
+	
+	#logo{
+		margin-top: 10px;
+		height: 150px;
+  }
 }

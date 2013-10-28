@@ -104,9 +104,16 @@
 	}
 	
 	#logo{
-		margin-top: -20px;
+		margin-top: -25px;
 		height: 220px;
   }	
+}
+
+@media (max-width: 779px) {
+	#logo{
+		margin-top: 0px;
+		height: 220px;
+  }
 }
 
 @media (max-width: 767px) {

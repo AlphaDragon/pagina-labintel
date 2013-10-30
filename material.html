@@ -61,20 +61,22 @@
     <div class="container">
 			<div class="page-header">
 				<h1>Material didáctico</h1>
-				<h1><small>En esta página se encuentra disponible material didáctico realizado en el laboratorio.</small></h1>
-			</div>
+				<h1><small>Material didáctico de cursos y seminarios realizado como parte del proyecto PAPIME</small></h1>				
+			</div>			
       <div class="row-fluid">
         <div class="span3">
           <div class="well sidebar-nav">
             <ul class="nav nav-list">
               <li class="nav-header">Proyecto PAPIME PE104911</li>
-              <li><a href="#">● Hilos Java</a></li>
-							<li><a href="#">● Programación con Multitareas</a></li>
-              <li><a href="#">● Algoritmos seriales contra paralelos</a></li>
-              <li><a href="#">● Curso CUDA</a></li>
-              <li class="nav-header">Cursos</li>
-              <li><a href="#">● Link a material curso 1</a></li>
-              <li><a href="#">● Link a material curso 2</a></li>
+			  <hr>
+			  <li class="nav-header">Cursos</li>
+              <li><a href="#multi_hilos">• Programación de multitareas utilizando hilos</a></li>
+			  <li><a href="#multitareas">• Programación con Multitareas</a></li>
+              <li><a href="#nociones">• Nociones de scripting y programación en paralelo</a></li>
+			  
+			  <li class="nav-header">Seminarios</li>
+			  <li><a href="#.NET">• Programación paralela con Microsoft .NET</a></li>
+			  <li><a href="#paralelovsserial">• Algoritmos paralelos vs. algoritmos seriales</a></li>
             </ul>
           </div><!--/.well -->
         </div><!--/span3-->
@@ -82,39 +84,122 @@
         <div class="span9">
 
           <div class="row-fluid">
-            <div class="span12">
-              <h3>Proyecto PAPIME</h3>
-							<p>Material de cursos impartidos como parte del proyecto PAPIME.</p>
-							<h4>Hilos Java</h4>
-							<p>Descripción</p>
-              <p><a class="btn" href="#">Descargar material &raquo;</a></p>
-							<hr>
-							<h4>Programación con Multitareas</h4>
-							<p>Descripción</p>
-							<p><a class="btn" href="#">Descargar material &raquo;</a></p>
-							<hr>
-							<h4>Algoritmos seriales contra paralelos </h4>
-							<p>Descripción</p>
-							<p><a class="btn" href="#">Descargar material &raquo;</a></p>
-							<hr>
-							<h4>Curso CUDA</h4>
-							<p>Descripción</p>
-							<p>Se tiene planeado impartir un curso relacionado con CUDA en diciembre de 2013.</p>
-            </div><!--/span-->
-
+            
+			<h1>Cursos</h1>
+			<section id="multi_hilos">
+				<h3>Programación de multitareas utilizando hilos</h3>
+				<h4>Instructores</h4>
+				<ul>
+					<li>Ing. Laura Sandoval Montaño</li>
+					<li>Ing. Manuel Castañeda Castañeda</li>
+				</ul>
+				<h4>Objetivo</h4>
+					<p>Presentar al participante las bases para la elaboración de programas que utilicen multi-hilos para mejorar la eficiencia de ambientes de multitareas.</p>
+				<h4>Contenido</h4>
+				<ol>
+					<li>Origen de los hilos como elemento necesario en la programación de multitareas.</li>
+					<ul>
+						<li>Sistemas de multitareas</li>
+						<ul>
+							<li>Tarea</li>
+							<li>Proceso</li>
+							<li>Estados de un proceso</li>
+							<li>Concepto de multitarea</li>
+						</ul>
+						<li>Ambientes de multitarea</li>
+						<ul>
+							<li>Monoprocesador</li>
+							<li>Multiprocesador</li>
+						</ul>
+						<li>Elementos de programación de multitareas</li>
+						<ul>
+							<li>Proceso</li>
+							<li>Hilo</li>
+							<li>Diferencias entre procesos e hilos</li>
+							<li>Multihilos</li>
+						</ul>
+					</ul>
+					<li>Multihilos en un solo procesador</li>
+					<ul>
+						<li>Hilos POSIX</li>
+						<li>Hilos en C</li>
+						<li>Hilos en Java</li>
+					</ul>
+					<li>Multihilos en varios procesadores</li>
+					<ul>
+						<li>Hilos en .NET</li>
+						<li>Hilos en Linux</li>
+					</ul>
+					<li>Implementación</li>
+					<ul>
+						<li>Estudios de caso</li>
+						<ul>
+							<li>en .NET</li>
+							<li>en Linux</li>
+						</ul>
+					</ul>
+				</ol>
+				<form method="get" action="assets/ProgramacionMultitareasHilos.zip">
+					<button class="btn" type="submit">Ver material &raquo;</button>
+				</form>
+					
+			</section>
+			
+			<section id="multitareas">
+				<h3>Programación con Multitareas</h3>
+				<h4>Instructores</h4>
+				<ul>
+					<li>Ing. Laura Sandoval Montaño</li>
+					<li>Ing. Andrés Mondragón Contreras</li>
+				</ul>
+				<h4>Objetivo</h4>
+				<h4>Contenido</h4>
+				<p><a class="btn" href="#">Ver material &raquo;</a></p> 	
+			</section>
+			
+			<section id="nociones">
+				<h3>Nociones de scripting y programación en paralelo</h3>
+				<h4>Instructores</h4>
+				<ul>
+					<li>M.I. Elba Karen Sáenz García</li>
+					<li>M.I. Oscar René Valdez Casillas</li>
+				</ul>
+				<h4>Objetivo</h4>
+				<h4>Contenido</h4>
+				<p><a class="btn" href="#">Ver material &raquo;</a></p> 
+			</section>
+            	
           </div><!--/row-->
-          <div class="row-fluid">
-            <div class="span12">
-              <h3>Cursos</h3>
-							<p>Materiales de otros cursos.</p>
-							<h4>Curso 1</h4>
-							<p>Descripción</p>
-              <p><a class="btn" href="#">Descargar material &raquo;</a></p>
-							<hr>
-							<h4>Curso 2</h4>
-							<p>Descripción</p>
-							<p><a class="btn" href="#">Descargar material &raquo;</a></p>
-            </div><!--/span-->
+		  
+          <div class="row-fluid">            
+			<hr>
+            <h1>Seminarios</h1>
+			<section id=".NET">
+				<h3>Programación paralela con Microsoft .NET</h3>
+				<h4>Expositores</h4>
+				<ul>
+					<li>Ing. Andrés Mondragón Contreras</li>
+					<li>Néstor Abdy García Fragoso</li>
+				</ul>
+				<h4>Objetivo</h4>
+				<h4>Contenido</h4>
+				<p><a class="btn" href="#">Ver material &raquo;</a></p> 
+			</section>
+			
+			<section id="paralelovsserial">
+				<h3>Algoritmos paralelos vs. algoritmos seriales</h3>
+				<h4>Expositores</h4>
+				<ul>
+					<li>Ariel Ulloa Trejo</li>
+					<li>Carlos Aldair Román Balbuena</li>
+					<li>Luis Fernando Pérez Franco</li>
+				</ul>
+				<h4>Objetivo</h4>
+				<h4>Contenido</h4>
+				<p><a class="btn" href="#">Ver material &raquo;</a></p> 	
+			</section>
+							
+			           
           </div><!--/row-->
         </div><!--/span-->
       </div><!--/row-->

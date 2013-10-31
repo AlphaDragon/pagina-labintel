@@ -14,7 +14,7 @@
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/logo72.png">
     <link rel="shortcut icon" href="img/logo-favicon.ico">
 				
-  <body>
+  <body data-spy="scroll" data-target="#navbar">
 
     <!-- NAVBAR -->
     <div class="navbar-wrapper">
@@ -61,24 +61,22 @@
     <div class="container">
 			<div class="page-header">
 				<h1>Material didáctico</h1>
-				<h1><small>Material didáctico de cursos y seminarios realizado como parte del proyecto PAPIME</small></h1>				
+				<h1><small>Material didáctico de cursos y seminarios realizados como parte del proyecto PAPIME</small></h1>				
 			</div>			
       <div class="row-fluid">
-        <div class="span3">
-          <div class="well sidebar-nav">
-            <ul class="nav nav-list">
-              <li class="nav-header">Proyecto PAPIME PE104911</li>
-			  <hr>
+        <div class="span3" id="navbar">          
+            <ul class="nav nav-list affix well" data-spy="affix" data-offset-top="220">              
 			  <li class="nav-header">Cursos</li>
               <li><a href="#multi_hilos">• Programación de multitareas utilizando hilos</a></li>
 			  <li><a href="#multitareas">• Programación con Multitareas</a></li>
               <li><a href="#nociones">• Nociones de scripting y programación en paralelo</a></li>
-			  
+			  <li><a href="#serialvsparalelo">• Algoritmos seriales vs paralelos</a></li>
+			  <li class="divider"></li>
 			  <li class="nav-header">Seminarios</li>
-			  <li><a href="#.NET">• Programación paralela con Microsoft .NET</a></li>
-			  <li><a href="#paralelovsserial">• Algoritmos paralelos vs. algoritmos seriales</a></li>
+			  <li><a href="#net">• Programación paralela con Microsoft .NET</a></li>
+			  <li><a href="#seminariocomputoparalelo">• Seminario de cómputo paralelo</a></li>
             </ul>
-          </div><!--/.well -->
+          
         </div><!--/span3-->
 				<hr class="visible-phone">
         <div class="span9">
@@ -87,6 +85,7 @@
             
 			<h1>Cursos</h1>
 			<section id="multi_hilos">
+				<br><br>
 				<h3>Programación de multitareas utilizando hilos</h3>
 				<h4>Instructores</h4>
 				<ul>
@@ -139,13 +138,49 @@
 						</ul>
 					</ul>
 				</ol>
-				<form method="get" action="assets/ProgramacionMultitareasHilos.zip">
-					<button class="btn" type="submit">Ver material &raquo;</button>
-				</form>
-					
+				<h4>Material</h4>
+					<div>
+						<table class="table table-hover table-bordered">							
+						<tbody>
+							<tr>									
+								<td><a href="assets/ProgramacionMultitareasHilos/ProgramacionMultitareasConHilos.pdf" target="_blank">ProgramacionMultitareasConHilos.pdf</a></td>
+								<td>
+									<a href="assets/ProgramacionMultitareasHilos/ProgramacionMultitareasConHilos.pdf" download="assets/ProgramacionMultitareasHilos/ProgramacionMultitareasConHilos.pdf"><i class="icon-arrow-down"></i> Descargar</a>																	
+								</td>									
+							</tr>
+							<tr>									
+								<td><a href="assets/ProgramacionMultitareasHilos/HILOS__Android.pdf" target="_blank">HILOS__Android.pdf</a></td>
+								<td>
+									<a href="assets/ProgramacionMultitareasHilos/HILOS__Android.pdf" download="assets/ProgramacionMultitareasHilos/HILOS__Android.pdf"><i class="icon-arrow-down"></i> Descargar</a>																	
+								</td>									
+							</tr>
+							<tr>									
+								<td><a href="assets/ProgramacionMultitareasHilos/HILOS__JAVA.pdf" target="_blank">HILOS__JAVA.pdf</a></td>
+								<td>
+									<a href="assets/ProgramacionMultitareasHilos/HILOS__JAVA.pdf" download="assets/ProgramacionMultitareasHilos/HILOS__JAVA.pdf"><i class="icon-arrow-down"></i> Descargar</a>																	
+								</td>									
+							</tr>
+							<tr>									
+								<td><a href="assets/ProgramacionMultitareasHilos/HilosPosix.pdf" target="_blank">HilosPosix.pdf</a></td>
+								<td>
+									<a href="assets/ProgramacionMultitareasHilos/HilosPosix.pdf" download="assets/ProgramacionMultitareasHilos/HilosPosix.pdf"><i class="icon-arrow-down"></i> Descargar</a>																	
+								</td>									
+							</tr>
+							<tr>									
+								<td><a href="assets/ProgramacionMultitareasHilos/ProgMultiprocCilk.pdf" target="_blank">ProgMultiprocCilk.pdf</a></td>
+								<td>
+									<a href="assets/ProgramacionMultitareasHilos/ProgMultiprocCilk.pdf" download="assets/ProgramacionMultitareasHilos/ProgMultiprocCilk.pdf"><i class="icon-arrow-down"></i> Descargar</a>																	
+								</td>									
+							</tr>							
+						</tbody>
+
+					</table>						
+					</div>
+					<hr>					
 			</section>
 			
 			<section id="multitareas">
+				<br><br>
 				<h3>Programación con Multitareas</h3>
 				<h4>Instructores</h4>
 				<ul>
@@ -153,11 +188,64 @@
 					<li>Ing. Andrés Mondragón Contreras</li>
 				</ul>
 				<h4>Objetivo</h4>
+				<p>Presentar al participante las bases para la elaboración de programas que utilicen multitareas para mejorar su desempeño y aprovechar las arquitecturas de procesadores de varios núcleos.</p>
 				<h4>Contenido</h4>
-				<p><a class="btn" href="#">Ver material &raquo;</a></p> 	
+				<ol>
+					<li>Fundamentos del procesamiento con multitareas</li>
+					<ul>
+						<li>Definición de proceso tarea</li>
+						<li>Concepto de multitarea/multiprogramación</li>
+						<li>Estados de un proceso en multitarea</li>
+						<li>Problemas de concurrencia</li>
+						<li>Niveles de programación con multitareas</li>
+					</ul>
+					<li>Programación de multitareas utilizando hilos POSIX</li>
+					<ul>
+						<li>Diferencias entre hilos y procesos</li>
+						<li>Características de los hilos POSIX</li>
+						<li>Creación de multitareas/multihilos</li>
+						<li>Comunicación y concurrencia de hilos</li>
+					</ul>
+					<li>Programación de multitareas utilizando un compilador de C paralelo</li>
+					<ul>
+						<li>Características generales de Cilk++ SDK</li>
+						<li>Creación de multitareas</li>
+						<li>Consideraciones de concurrencia síncrona y asíncrona</li>
+						<li>Medición del desempeño y escalabilidad</li>
+					</ul>
+				</ol>
+				
+				<h4>Material</h4>
+					<div>
+						<table class="table table-hover table-bordered">							
+						<tbody>
+							<tr>									
+								<td><a href="assets/ProgramacionConMultitareas/ProgramacionConMultitareas.pdf" target="_blank">ProgramacionConMultitareas.pdf</a></td>
+								<td>
+									<a href="assets/ProgramacionConMultitareas/ProgramacionConMultitareas.pdf" download="assets/ProgramacionConMultitareas/ProgramacionConMultitareas.pdf"><i class="icon-arrow-down"></i> Descargar</a>																	
+								</td>									
+							</tr>
+							<tr>									
+								<td><a href="assets/ProgramacionConMultitareas/PracticaHilosPOSIX.pdf" target="_blank">PracticaHilosPOSIX.pdf</a></td>
+								<td>
+									<a href="assets/ProgramacionConMultitareas/PracticaHilosPOSIX.pdf" download="assets/ProgramacionConMultitareas/PracticaHilosPOSIX.pdf"><i class="icon-arrow-down"></i> Descargar</a>																	
+								</td>									
+							</tr>
+							<tr>									
+								<td><a href="assets/ProgramacionConMultitareas/ProgMultitareasCilk.pdf" target="_blank">ProgMultitareasCilk.pdf</a></td>
+								<td>
+									<a href="assets/ProgramacionConMultitareas/ProgMultitareasCilk.pdf" download="assets/ProgramacionConMultitareas/ProgMultitareasCilk.pdf"><i class="icon-arrow-down"></i> Descargar</a>																	
+								</td>									
+							</tr>																				
+						</tbody>
+
+					</table>						
+					</div>
+					<hr>				
 			</section>
 			
 			<section id="nociones">
+				<br><br>
 				<h3>Nociones de scripting y programación en paralelo</h3>
 				<h4>Instructores</h4>
 				<ul>
@@ -165,38 +253,174 @@
 					<li>M.I. Oscar René Valdez Casillas</li>
 				</ul>
 				<h4>Objetivo</h4>
+				<p>Presentar al participante las bases para la elaboración de programas o scripts que aprovechen el tener una arquitectura de varias unidades de procesamiento.</p>
 				<h4>Contenido</h4>
-				<p><a class="btn" href="#">Ver material &raquo;</a></p> 
-			</section>
-            	
-          </div><!--/row-->
-		  
-          <div class="row-fluid">            
-			<hr>
-            <h1>Seminarios</h1>
-			<section id=".NET">
-				<h3>Programación paralela con Microsoft .NET</h3>
-				<h4>Expositores</h4>
-				<ul>
-					<li>Ing. Andrés Mondragón Contreras</li>
-					<li>Néstor Abdy García Fragoso</li>
-				</ul>
-				<h4>Objetivo</h4>
-				<h4>Contenido</h4>
-				<p><a class="btn" href="#">Ver material &raquo;</a></p> 
+				<ol>
+					<li>Utilidad de realizar procesamiento paralelo en arquitecturas con varias unidades de procesamiento.</li>
+					<li>Ejecución de comandos e implementación de scripts en paralelo.</li>
+					<li>Herramientas para programación en paralelo.</li>
+				</ol>
+				
+				<h4>Material</h4>
+					<div>
+						<table class="table table-hover table-bordered">							
+						<tbody>
+							<tr>									
+								<td><a href="assets/Nociones/Tutorial de PPSS 1.1.pdf" target="_blank">Tutorial de PPSS 1.1.pdf</a></td>
+								<td>
+									<a href="assets/Nociones/Tutorial de PPSS 1.1.pdf" download="assets/Nociones/Tutorial de PPSS 1.1.pdf"><i class="icon-arrow-down"></i> Descargar</a>																	
+								</td>									
+							</tr>																									
+						</tbody>
+
+					</table>						
+					</div>
+					<hr>
 			</section>
 			
-			<section id="paralelovsserial">
-				<h3>Algoritmos paralelos vs. algoritmos seriales</h3>
-				<h4>Expositores</h4>
+			<section id="serialvsparalelo">
+				<br><br>
+				<h3>Algoritmos seriales vs paralelos</h3>
+				<h4>Instructores</h4>
 				<ul>
 					<li>Ariel Ulloa Trejo</li>
 					<li>Carlos Aldair Román Balbuena</li>
 					<li>Luis Fernando Pérez Franco</li>
 				</ul>
 				<h4>Objetivo</h4>
+				<p>El estudiante implementará algoritmos en forma secuencial para determinar las ventajas y desventajas sobre su versión paralela.</p>
 				<h4>Contenido</h4>
-				<p><a class="btn" href="#">Ver material &raquo;</a></p> 	
+				<ol>
+					<li>Diseño de algoritmos</li>
+					<ul>
+						<li>Diseño de algoritmos seriales (características, eficiencia, análisis, métricas).</li>
+						<li>Diseño de algoritmos paralelos (características, eficiencia, análisis, métricas, herramientas de desarrollo).</li>
+					</ul>
+					<li>Caso de estudio 1: Quicksort</li>
+					<ul>
+						<li>Análisis e implementación del algoritmo serial.</li>
+						<li>Análisis e implementación del algoritmo paralelo.</li>
+						<li>Análisis comparativo.</li>
+					</ul>
+					<li>Caso de estudio 2: Serie de Fibonacci</li>
+					<ul>
+						<li>Análisis e implementación del algoritmo serial.</li>
+						<li>Análisis e implementación del algoritmo paralelo.</li>
+						<li>Análisis comparativo.</li>
+					</ul>
+					<li>Caso de estudio 3: Problema de las N reinas</li>
+					<ul>
+						<li>Análisis e implementación del algoritmo serial.</li>
+						<li>Análisis e implementación del algoritmo paralelo.</li>
+						<li>Análisis comparativo.</li>
+					</ul>
+					<li>Desarrollo de una aplicación</li>
+					
+				</ol>
+				
+				<h4>Material</h4>
+					<div>
+						<table class="table table-hover table-bordered">							
+						<tbody>
+							<tr>									
+								<td><a href="assets/Nociones/Tutorial de PPSS 1.1.pdf" target="_blank">Presentación 1</a></td>
+								<td>
+									<a href="assets/Nociones/Tutorial de PPSS 1.1.pdf" download="assets/Nociones/Tutorial de PPSS 1.1.pdf"><i class="icon-arrow-down"></i> Descargar</a>																	
+								</td>									
+							</tr>
+							<tr>									
+								<td><a href="assets/Nociones/Tutorial de PPSS 1.1.pdf" target="_blank">Presentación 2</a></td>
+								<td>
+									<a href="assets/Nociones/Tutorial de PPSS 1.1.pdf" download="assets/Nociones/Tutorial de PPSS 1.1.pdf"><i class="icon-arrow-down"></i> Descargar</a>																	
+								</td>									
+							</tr>
+							<tr>									
+								<td><a href="assets/Nociones/Tutorial de PPSS 1.1.pdf" target="_blank">Presentación 3</a></td>
+								<td>
+									<a href="assets/Nociones/Tutorial de PPSS 1.1.pdf" download="assets/Nociones/Tutorial de PPSS 1.1.pdf"><i class="icon-arrow-down"></i> Descargar</a>																	
+								</td>									
+							</tr>
+						</tbody>
+
+					</table>						
+					</div>
+					<hr>
+			</section>
+            	
+          </div><!--/row-->
+		  
+          <div class="row-fluid">            			
+            <h1>Seminarios</h1>
+			<section id="net">
+				<br><br>
+				<h3>Programación paralela con Microsoft .NET</h3>
+				<h4>Ponentes</h4>
+				<ul>
+					<li>Ing. Andrés Mondragón Contreras</li>
+					<li>Néstor Abdy García Fragoso</li>
+				</ul>
+				<h4>Objetivo</h4>
+				<p>Presentar a los participantes una introducción al desarrollo de aplicaicones paralelas con tecnología Microsoft .NET</p>
+				<h4>Contenido</h4>
+				<ol>
+					<li>Introducción y conceptos básicos de paralelismo</li>
+					<li>Factores a considerar en la implementación paralela de una aplicación</li>
+					<li>Enfoques de diseño</li>
+					<li>Identificación de patrones y aplicaciones en C, C++ y C#</li>
+					<ul>
+						<li>Loops paralelos</li>
+						<li>Tareas paralelas</li>
+						<li>Agregación paralela</li>
+						<li>Futuros</li>
+						<li>Paralelismo de tareas dinámicas</li>
+					</ul>
+				</ol>
+				<h4>Material</h4>
+				<ul>
+					<li><a href="http://prezi.com/twbonenjlqyh/programacion-paralela-net/" target="_blank">Presentación 1</a></li>
+					<li><a href="http://prezi.com/kzmkhx9gvlik/paralelismo-de-tareas/" target="_blank">Presentación 2</a></li>
+				</ul>
+				<hr>
+			</section>
+			
+			<section id="seminariocomputoparalelo">				
+				<h3>Seminario de cómputo paralelo</h3>
+				<h4>Ponentes</h4>
+				<ul>
+					<li>Ariel Ulloa Trejo</li>
+					<li>Carlos Aldair Román Balbuena</li>
+					<li>Luis Fernando Pérez Franco</li>
+				</ul>
+				<h4>Objetivos</h4>
+				<ul>
+					<li>Conocer las generalidades de: aplicaciones multicore, la biblioteca "Intel Threading Building Blocks" y aplicaciones concurrentes</li>
+					<li>Los estudiantes podrán relacionar temas abordados en materias como Algoritmos y Estructuras de Datos, Sistemas Operativos, Estructura y Programación de Computadoras, entre otras</li>
+					<li>Los académicos, pueden apoyarse en estos conocimientos, ya sea para dar clases o investigación</li>
+					<li>Brindar material de consulta a la comunidad estudiantil de cualquier institución</li>
+				</ul>
+				<h4>Contenido</h4>
+				<ol>
+					<li>Multicore Application Programming: For Windows, Linux, and Oracle Solaris (autor: Darryl Gove)</li>
+					<ul>
+						<li>Hardware, procesos e hilos</li>
+						<li>Rendimiento en la codificación</li>
+						<li>Códigos</li>
+					</ul>
+					<li>Intel Threading Building Blocks (autor: James Reinders)</li>
+					<ul>
+						<li>¿Qué es Intel Threading Building Blocks?</li>
+						<li>Comparación de ITBB con otras herramientas</li>
+						<li>Piensa en paralelo</li>
+					</ul>
+					<li>C++ Concurrency in action (autor: Anthony Williams)</li>
+					<ul>
+						<li>¿Qué es concurrencia?</li>
+						<li>Porqué usar concurrencia</li>
+						<li>Concurrencia y multihilos en C++</li>
+					</ul>
+				</ol>
+				<h4>Material</h4>
+				
 			</section>
 							
 			           

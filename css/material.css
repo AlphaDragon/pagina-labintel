@@ -11,6 +11,17 @@
 	font-size: 58px;
 }
 
+.nav-list{
+	top: 70px;
+	width: 217px;
+}
+
+@media (max-width: 1199px){
+	.nav-list{
+		width: 190px;
+	}
+}
+
 @media (max-width: 979px){
 	.page-header{
 		margin-top: 70px;
@@ -18,6 +29,10 @@
 
 	.page-header h1{
 		font-size: 40px;
+	}
+	
+	.nav-list{
+		width: 120px;
 	}
 
 }
@@ -37,6 +52,14 @@
 	}
 
 	.well{
+		margin-bottom: 30px;
+	}
+	
+	.nav-list{
+		width: 217px;
+		position: static;
+		margin-left: auto;
+		margin-right: auto;
 		margin-bottom: 30px;
 	}
 }

@@ -3,7 +3,7 @@
 @import url('navbar.css');
 
 .carousel-indicators{  
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 .carousel-inner h1{
@@ -11,10 +11,11 @@
   font-size: 60px;
   text-align: center;  
   line-height: 55px;
+  margin-top: 20px;
 }
 
 .carousel-control{
-  margin-top: 50px; 
+  margin-top: 20px; 
 }
 
 .featurette-heading {
@@ -30,15 +31,15 @@
 }
 
 #carousel{
-  padding-top: 90px;
+  margin-top: 90px;
   background: url(../img/fondo.jpg) center center no-repeat;
   background-size: cover;
-  height: 380px;
+  height: 430px;
 }
 
 #logo{
   height: 220px;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 #descripcion{

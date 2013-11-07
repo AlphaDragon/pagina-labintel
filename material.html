@@ -60,14 +60,15 @@
 
     <div class="container">		
 			<h1 style="font-size: 58px; margin-top: 100px;">Material didáctico</h1>
-			<h1><small>Material didáctico de cursos y seminarios impartidos en el laboratorio</small></h1>				
+			<h1><small>Prácticas y material didáctico de cursos y seminarios impartidos en el laboratorio</small></h1>				
 					
     <div class="row-fluid">		
 		<h3>Año</h3>
 		<div class="tabbable">
 			<ul class="nav nav-tabs">
 				<li class="active"><a href="#2012" data-toggle="tab">2012</a></li>
-				<li><a href="#2011" data-toggle="tab">2011</a></li>				
+				<li><a href="#2011" data-toggle="tab">2011</a></li>
+				<li><a href="#practicas" data-toggle="tab">Prácticas</a></li>
 			</ul>			
 			<div class="tab-content">				
 				
@@ -453,20 +454,22 @@
 						</div><!--tan-content-->			
 					</div><!--tabbable-->					
 				
-				</div><!--tab-pane2012-->
+				</div><!--tab-pane2012-->				
 				
 				<div class="tab-pane fade" id="2011">
 					<div class="tabbable tabs-left">
 						<ul class="nav nav-tabs">
 							<li class="nav-header">CURSOS</li>
-							<li class="active"><a href="#multiprocesamiento">Multiprocesamiento en lenguaje C</a></li>
+							<li class="active"><a href="#multiprocesamiento" data-toggle="tab">Multiprocesamiento en lenguaje C</a></li>
+							<li><a href="#algoritmos" data-toggle="tab">Análisis de Algoritmos y Estructuras de Datos</a></li>
+							<li><a href="#multiprocesamientoProfesores" data-toggle="tab">Multiprocesamiento en lenguaje C (para profesores)</a></li>
 						</ul>
-						<div class="tab-content">
-							<div class="tab pane fade in active">
+						<div class="tab-content">							
+							
+							<div class="tab-pane fade in active" id="multiprocesamiento">
 								<h3>Multiprocesamiento en lenguaje C</h3>
 								<h4>Instructores</h4>
-								<ul>
-									<li>Ing. Laura Sandoval Montaño</li>
+								<ul>									
 									<li>Luis Manuel García Hernández</li>
 								</ul>
 								<h4>Objetivo</h4>
@@ -501,13 +504,148 @@
 										<li>Aplicaciones gráficas</li>
 									</ul>									
 								</ol>
-							</div><!--tab-pane1-->
+								<h4>Material</h4>
+									<div>
+										<table class="table table-hover table-bordered">							
+										<tbody>
+											<tr>									
+												<td><a href="assets/Multiprocesamiento/procesos.pdf" target="_blank">procesos.pdf</a></td>
+												<td>
+													<a href="assets/Multiprocesamiento/procesos.pdf" download="assets/Multiprocesamiento/procesos.pdf"><i class="icon-arrow-down"></i> Descargar</a>																	
+												</td>									
+											</tr>
+											<tr>									
+												<td><a href="assets/Multiprocesamiento/hilos.pdf" target="_blank">hilos.pdf</a></td>
+												<td>
+													<a href="assets/Multiprocesamiento/hilos.pdf" download="assets/Multiprocesamiento/hilos.pdf"><i class="icon-arrow-down"></i> Descargar</a>																	
+												</td>									
+											</tr>																		
+										</tbody>
+				
+									</table>						
+									</div>
+							</div><!--tab-pane-multiprocesamiento-->
+							
+							<div class="tab-pane fade" id="algoritmos">
+								<h3>Análisis de Algoritmos y Estructuras de Datos</h3>
+								<h4>Instructor</h4>
+								<ul>
+									<li>Carlos Roberto Álvarez Barragán</li>
+								</ul>
+								<h4>Objetivo</h4>
+									<p>Establecer las bases del análisis de algoritmos a través de notación asintótica y el entendimiento de distintas técnicas que permiten establecer la complejidad de distintos algoritmos. Entender estos principios permitirán un mejor entendimiento del mismo análisis pero de algoritmos desarrollados para plataformas paralelas o distribuidas.</p>									
+								<h4>Contenido</h4>
+								<ol>
+									<li>Temas introductorios</li>
+									<li>Dividir y vencer: Recursividad y métodos para el análisis</li>
+									<li>Quicksort</li>
+									<li>Ordenamientos de tiempo lineal</li>
+									<li>Tablas de hash y funciones de hash</li>
+									<li>Introducción a árboles y su importancia</li>
+								</ol>
+								
+							</div><!--tab-pane-algoritmos-->
+							
+							<div class="tab-pane fade" id="multiprocesamientoProfesores">
+								<h3>Multiprocesamiento en lenguaje C (para profesores)</h3>
+								<h4>Instructores</h4>
+								<ul>
+									<li>Ing. Laura Sandoval Montaño</li>
+									<li>M.I. Elba Karen Sáenz García</li>
+									<li>M.I Oscar René Valdez Casillas</li>
+								</ul>
+								<h4>Objetivo</h4>
+									<p>Presentar al participante las bases para la elaboración de programas paralelos que agilicen el cómputo de aplicaciones de cálculo intensivo; así como aprovechar las arquitecturas paralelas que están al alcance de la mayoría de los usuarios académicos.</p>									
+								<h4>Contenido</h4>
+								<ol>
+									<li>Conceptos básicos de computación paralela</li>
+									<ul>
+										<li>Sistemas de multiprocesamiento</li>
+										<li>Demandas de aplicación</li>
+										<li>Arquitecturas paralelas</li>
+										<ul>
+											<li>Taxonomía de Flynn</li>
+											<li>Arquitectura de memoria compartida</li>
+											<li>Arquitectura multicore</li>
+										</ul>
+									</ul>
+									<li>Creación y manejo de procesos en lenguaje C</li>
+									<ul>
+										<li>Estados de un proceso</li>
+										<li>Estructura de un proceso</li>
+										<li>Creación de procesos en UNIX</li>
+										<li>Manejo de procesos en UNIX</li>										
+									</ul>
+									<li>Manejo y creación de hilos en lenguaje C</li>
+									<ul>
+										<li>Diferencias entre hilos y procesos</li>
+										<li>Estructura de un hilo</li>
+										<li>Manejo de hilos POSIX</li>
+									</ul>
+									<li>Algoritmos paralelos</li>
+									<ul>
+										<li>Niveles de paralelismo</li>
+										<li>Paradigmas de programación paralela</li>
+										<li>Metodologías de diseño</li>
+									</ul>
+									<li>Ejemplos aplicativos de la programación paralela</li>
+									<ul>
+										<li>Herramientas de desarrollo y aplicaciones</li>
+										<li>OpenMP</li>
+										<li>MPI</li>
+									</ul>									
+								</ol>
+								<h4>Material</h4>
+									<div>
+										<table class="table table-hover table-bordered">							
+										<tbody>
+											<tr>									
+												<td><a href="assets/MultiprocesamientoProfesores/ConceptosBasicosCompParalela.pdf" target="_blank">ConceptosBasicosCompParalela.pdf</a></td>
+												<td>
+													<a href="assets/MultiprocesamientoProfesores/ConceptosBasicosCompParalela.pdf" download="assets/Multiprocesamiento/ConceptosBasicosCompParalela.pdf"><i class="icon-arrow-down"></i> Descargar</a>																	
+												</td>									
+											</tr>
+											<tr>									
+												<td><a href="assets/MultiprocesamientoProfesores/ProcesosEnC.pdf" target="_blank">ProcesosEnC.pdf</a></td>
+												<td>
+													<a href="assets/MultiprocesamientoProfesores/ProcesosEnC.pdf" download="assets/Multiprocesamiento/ProcesosEnC.pdf"><i class="icon-arrow-down"></i> Descargar</a>																	
+												</td>									
+											</tr>
+											<tr>									
+												<td><a href="assets/MultiprocesamientoProfesores/Introducci_nProgramaci_nParalela.pdf" target="_blank">Introducci_nProgramaci_nParalela.pdf</a></td>
+												<td>
+													<a href="assets/MultiprocesamientoProfesores/Introducci_nProgramaci_nParalela.pdf" download="assets/Multiprocesamiento/Introducci_nProgramaci_nParalela.pdf"><i class="icon-arrow-down"></i> Descargar</a>																	
+												</td>									
+											</tr>
+											<tr>									
+												<td><a href="assets/MultiprocesamientoProfesores/Introducci_nOpenMp.pdf" target="_blank">Introducci_nOpenMp.pdf</a></td>
+												<td>
+													<a href="assets/MultiprocesamientoProfesores/Introducci_nOpenMp.pdf" download="assets/Multiprocesamiento/Introducci_nOpenMp.pdf"><i class="icon-arrow-down"></i> Descargar</a>																	
+												</td>									
+											</tr>
+											<tr>									
+												<td><a href="assets/MultiprocesamientoProfesores/Introducci_nMPI.pdf" target="_blank">Introducci_nMPI.pdf</a></td>
+												<td>
+													<a href="assets/MultiprocesamientoProfesores/Introducci_nMPI.pdf" download="assets/Multiprocesamiento/Introducci_nMPI.pdf"><i class="icon-arrow-down"></i> Descargar</a>																	
+												</td>									
+											</tr>
+										</tbody>
+				
+									</table>						
+									</div>
+							</div><!--tab-pane-multiprocesamientoProfesores-->
+							
 						</div><!--tab-content-->
 					</div><!--tabbable-->
 				</div><!--tab-pane2011-->
 				
+				<div class="tab-pane fade" id="practicas">
+					<p>Prácticas</p>
+				</div><!--tab-pane-practicas-->
+				
 			</div><!--tab-content-->
 		</div><!--tabbable-->	
+	  
 	  <hr>
       <footer>
         <p class="pull-right"><a href="#">Regresar</a></p>

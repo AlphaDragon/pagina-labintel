@@ -63,13 +63,20 @@
 	
 }
 
-@media(max-width: 1148px){
+/*@media(max-width: 1199px){
+  .carousel-inner h1{
+	margin-top: 50px;
+  }  
+}*/
+
+@media(max-width: 1199px){
   
   .carousel-inner h1{
   color: white;
   font-size: 50px;
   text-align: center;  
   line-height: 55px;
+  margin-top: 50px;
   }	
 }
 

@@ -1,30 +1,38 @@
 /*Material stylesheet*/
 
-
 @import url('navbar.css');
+
+
+.container h1{
+	font-size: 58px;	
+}
 
 .nav-list{
 	top: 70px;
 	width: 217px;
 }
 
-@media (max-width: 1199px){
+#title{
+	margin-top: 120px;
+}
+
+@media (max-width: 1199px){	
 	.nav-list{
 		width: 190px;
 	}
 }
 
 @media (max-width: 979px){
-	.page-header{
-		margin-top: 70px;
-	}
-
-	.page-header h1{
+	.container h1{		
 		font-size: 40px;
 	}
 	
 	.nav-list{
 		width: 120px;
+	}
+	
+	#title{
+		margin-top: 70px;
 	}
 
 }
@@ -34,18 +42,14 @@
 		margin-top: 60px;
 	}
 
-	.page-header h1{
+	.container h1{
 		font-size: 35px;
 		text-align: center;
 	}
 
 	h1 small{
 		font-size: 19px;
-	}
-
-	.well{
-		margin-bottom: 30px;
-	}
+	}	
 	
 	.nav-list{
 		width: 217px;

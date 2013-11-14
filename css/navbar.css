@@ -70,6 +70,12 @@ footer{
 
 /* RESPONSIVE CSS */
 
+@media (max-width: 1199px){
+  body{
+	margin-top: 20px;
+  }
+}
+
 @media (max-width: 979px) {
 
 	.navbar-inner {
@@ -78,8 +84,8 @@ footer{
 	}
 
 	.navbar .btn-navbar {
-		margin-top: 25px;
-		margin-bottom: 10px;
+		margin-top: 15px;		
+		margin-right: 30px;
 	}
 
 	.navbar .nav > li > a {
@@ -95,6 +101,11 @@ footer{
 @media (max-width: 767px) {
 	.navbar .nav > li > a {
 		padding: 10px;
+	}
+	
+	.navbar .btn-navbar {
+		margin-top: 5px;		
+		margin-right: 45px;
 	}
 }
 

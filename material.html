@@ -8,13 +8,13 @@
 		<meta name="description" content="Página principal del Laboratorio de Intel para la Academia">
 	
 		<!--Styles -->
-		<link href="./css/index.css" rel="stylesheet">
+		<link href="./css/material.css" rel="stylesheet">
 	
 		<!-- Fav and touch icons -->
-		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/logo144.png">
-		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/logo114.png">
-		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/logo72.png">
-		<link rel="shortcut icon" href="img/logo-favicon.ico">
+		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/logo144.png"/>
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/logo114.png"/>
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/logo72.png"/>
+		<link rel="shortcut icon" href="img/favicon.ico"/>
 	</head>
 				
   <body>
@@ -259,23 +259,86 @@
 							
 						</div><!--tab-content-->
 					</div><!--tabbable-->
-				</div><!--tab-pane2011-->
-				
-				
+				</div><!--tab-pane2011-->				
 				
 				<div class="tab-pane fade" id="2012">					
 					<div class="tabbable tabs-left">
 						<ul class="nav nav-tabs">
 							<li class="nav-header">CURSOS</li>				
-							<li class="active"><a href="#multi_hilos" data-toggle="tab">Programación de multitareas utilizando hilos</a></li>
-							<li><a href="#multitareas" data-toggle="tab">Programación con Multitareas</a></li>
+							<li class="active"><a href="#multitareas" data-toggle="tab">Programación con Multitareas</a></li>
+							<li><a href="#multi_hilos" data-toggle="tab">Programación de multitareas utilizando hilos</a></li>							
 							<li><a href="#nociones" data-toggle="tab">Nociones de scripting y programación en paralelo</a></li>
 							
 							<li class="nav-header">SEMINARIOS</li>
 							<li><a href="#net" data-toggle="tab">Programación paralela con Microsoft .NET</a></li>							
 						</ul>
-						<div class="tab-content">				
-							<div class="tab-pane fade in active" id="multi_hilos">
+						<div class="tab-content">
+							
+							<div class="tab-pane fade in active" id="multitareas">
+								<h3>Programación con Multitareas</h3>
+							<h4>Instructores</h4>
+							<ul>
+								<li>Ing. Laura Sandoval Montaño</li>
+								<li>Ing. Andrés Mondragón Contreras</li>
+							</ul>
+							<h4>Objetivo</h4>
+							<p>Presentar al participante las bases para la elaboración de programas que utilicen multitareas para mejorar su desempeño y aprovechar las arquitecturas de procesadores de varios núcleos.</p>
+							<h4>Contenido</h4>
+							<ol>
+								<li>Fundamentos del procesamiento con multitareas</li>
+								<ul>
+									<li>Definición de proceso tarea</li>
+									<li>Concepto de multitarea/multiprogramación</li>
+									<li>Estados de un proceso en multitarea</li>
+									<li>Problemas de concurrencia</li>
+									<li>Niveles de programación con multitareas</li>
+								</ul>
+								<li>Programación de multitareas utilizando hilos POSIX</li>
+								<ul>
+									<li>Diferencias entre hilos y procesos</li>
+									<li>Características de los hilos POSIX</li>
+									<li>Creación de multitareas/multihilos</li>
+									<li>Comunicación y concurrencia de hilos</li>
+								</ul>
+								<li>Programación de multitareas utilizando un compilador de C paralelo</li>
+								<ul>
+									<li>Características generales de Cilk++ SDK</li>
+									<li>Creación de multitareas</li>
+									<li>Consideraciones de concurrencia síncrona y asíncrona</li>
+									<li>Medición del desempeño y escalabilidad</li>
+								</ul>
+							</ol>
+							
+							<h4>Material</h4>
+								<div>
+									<table class="table table-hover table-bordered">							
+									<tbody>
+										<tr>									
+											<td><a href="assets/ProgramacionConMultitareas/ProgramacionConMultitareas.pdf" target="_blank">ProgramacionConMultitareas.pdf</a></td>
+											<td>
+												<a href="assets/ProgramacionConMultitareas/ProgramacionConMultitareas.pdf" download="assets/ProgramacionConMultitareas/ProgramacionConMultitareas.pdf"><i class="icon-arrow-down"></i> Descargar</a>																	
+											</td>									
+										</tr>
+										<tr>									
+											<td><a href="assets/ProgramacionConMultitareas/PracticaHilosPOSIX.pdf" target="_blank">PracticaHilosPOSIX.pdf</a></td>
+											<td>
+												<a href="assets/ProgramacionConMultitareas/PracticaHilosPOSIX.pdf" download="assets/ProgramacionConMultitareas/PracticaHilosPOSIX.pdf"><i class="icon-arrow-down"></i> Descargar</a>																	
+											</td>									
+										</tr>
+										<tr>									
+											<td><a href="assets/ProgramacionConMultitareas/ProgMultitareasCilk.pdf" target="_blank">ProgMultitareasCilk.pdf</a></td>
+											<td>
+												<a href="assets/ProgramacionConMultitareas/ProgMultitareasCilk.pdf" download="assets/ProgramacionConMultitareas/ProgMultitareasCilk.pdf"><i class="icon-arrow-down"></i> Descargar</a>																	
+											</td>									
+										</tr>																				
+									</tbody>
+			
+								</table>						
+								</div>
+								
+							</div><!--tab-pane1>-->
+							
+							<div class="tab-pane fade" id="multi_hilos">
 								<h3>Programación de multitareas utilizando hilos</h3>
 								<h4>Instructores</h4>
 								<ul>
@@ -366,71 +429,7 @@
 				
 									</table>						
 									</div>
-							</div><!--tab-pane1-->				
-							
-							<div class="tab-pane fade" id="multitareas">
-								<h3>Programación con Multitareas</h3>
-							<h4>Instructores</h4>
-							<ul>
-								<li>Ing. Laura Sandoval Montaño</li>
-								<li>Ing. Andrés Mondragón Contreras</li>
-							</ul>
-							<h4>Objetivo</h4>
-							<p>Presentar al participante las bases para la elaboración de programas que utilicen multitareas para mejorar su desempeño y aprovechar las arquitecturas de procesadores de varios núcleos.</p>
-							<h4>Contenido</h4>
-							<ol>
-								<li>Fundamentos del procesamiento con multitareas</li>
-								<ul>
-									<li>Definición de proceso tarea</li>
-									<li>Concepto de multitarea/multiprogramación</li>
-									<li>Estados de un proceso en multitarea</li>
-									<li>Problemas de concurrencia</li>
-									<li>Niveles de programación con multitareas</li>
-								</ul>
-								<li>Programación de multitareas utilizando hilos POSIX</li>
-								<ul>
-									<li>Diferencias entre hilos y procesos</li>
-									<li>Características de los hilos POSIX</li>
-									<li>Creación de multitareas/multihilos</li>
-									<li>Comunicación y concurrencia de hilos</li>
-								</ul>
-								<li>Programación de multitareas utilizando un compilador de C paralelo</li>
-								<ul>
-									<li>Características generales de Cilk++ SDK</li>
-									<li>Creación de multitareas</li>
-									<li>Consideraciones de concurrencia síncrona y asíncrona</li>
-									<li>Medición del desempeño y escalabilidad</li>
-								</ul>
-							</ol>
-							
-							<h4>Material</h4>
-								<div>
-									<table class="table table-hover table-bordered">							
-									<tbody>
-										<tr>									
-											<td><a href="assets/ProgramacionConMultitareas/ProgramacionConMultitareas.pdf" target="_blank">ProgramacionConMultitareas.pdf</a></td>
-											<td>
-												<a href="assets/ProgramacionConMultitareas/ProgramacionConMultitareas.pdf" download="assets/ProgramacionConMultitareas/ProgramacionConMultitareas.pdf"><i class="icon-arrow-down"></i> Descargar</a>																	
-											</td>									
-										</tr>
-										<tr>									
-											<td><a href="assets/ProgramacionConMultitareas/PracticaHilosPOSIX.pdf" target="_blank">PracticaHilosPOSIX.pdf</a></td>
-											<td>
-												<a href="assets/ProgramacionConMultitareas/PracticaHilosPOSIX.pdf" download="assets/ProgramacionConMultitareas/PracticaHilosPOSIX.pdf"><i class="icon-arrow-down"></i> Descargar</a>																	
-											</td>									
-										</tr>
-										<tr>									
-											<td><a href="assets/ProgramacionConMultitareas/ProgMultitareasCilk.pdf" target="_blank">ProgMultitareasCilk.pdf</a></td>
-											<td>
-												<a href="assets/ProgramacionConMultitareas/ProgMultitareasCilk.pdf" download="assets/ProgramacionConMultitareas/ProgMultitareasCilk.pdf"><i class="icon-arrow-down"></i> Descargar</a>																	
-											</td>									
-										</tr>																				
-									</tbody>
-			
-								</table>						
-								</div>
-								
-							</div><!--tab-pane2>-->
+							</div><!--tab-pane2-->						
 							
 							<div class="tab-pane fade" id="nociones">
 								<h3>Nociones de scripting y programación en paralelo</h3>

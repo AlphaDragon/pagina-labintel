@@ -37,18 +37,20 @@
 
 }
 
-@media (max-width: 767px){
-	.page-header{
+@media (max-width: 767px){	
+
+	#title{
 		margin-top: 60px;
 	}
 
 	.container h1{
 		font-size: 35px;
-		text-align: center;
+		text-align: center;		
 	}
 
 	h1 small{
 		font-size: 19px;
+		display: block;
 	}	
 	
 	.nav-list{

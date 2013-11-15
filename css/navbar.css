@@ -14,7 +14,8 @@
 	right: 0%;
 }
 
-.center .navbar .nav, .center.navbar .nav > li {
+.center .navbar .nav,
+.center.navbar .nav {
     float:none;
     display:inline-block;    
     vertical-align: top;

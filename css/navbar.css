@@ -8,6 +8,23 @@
   font-family: 'Gudea', sans-serif;
 }
 
+#titulo{
+  margin-bottom: -5px;
+}
+
+#fi-unam{  
+  margin-bottom: -3px;   
+}
+
+#fi-unam a{
+  text-decoration: none;
+  color: grey;  
+}
+
+#fi-unam a:hover{
+  color: white;  
+}
+
 .navbar-wrapper {
 	position: absolute;
 	left: 0%;

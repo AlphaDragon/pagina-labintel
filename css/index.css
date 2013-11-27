@@ -38,6 +38,12 @@
   margin-top: 20px;
 }
 
+#carousel-img1{
+  height: 400px;
+  width: 900px;
+  padding-top: 20px;
+}
+
 #descripcion{
 	letter-spacing: -1px;
 	text-align: center;
